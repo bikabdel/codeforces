@@ -1,0 +1,16 @@
+// arrays
+arr.reduce(function (a, b) {
+  return a + b;
+}, 0); //sum of array
+arr.every(func);
+arr.some(func);
+
+//strings
+s.replace(regex, replacement);
+regex.test(s);
+s.toUpperCase();
+s.toLowerCase();
+s.concat(s1).concat(etc);
+s.includes(text);
+s.localCompare(b); // compare lexicographically 0 : equal / negatif : smaller / positif : greater
+s.match(regex);
