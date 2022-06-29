@@ -1,8 +1,3 @@
-a = +readline();
-x = 0;
-while (a !== 0) {
-  x += Math.pow(-1, a) * a;
-  a--;
-}
+n = +readline();
 
-print(x);
+print(n % 2 === 0 ? n / 2 : Math.floor(-n / 2));
