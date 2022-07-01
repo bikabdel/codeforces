@@ -4,6 +4,9 @@ arr.reduce(function (a, b) {
 }, 0); //sum of array
 arr.every(func);
 arr.some(func);
+arr.sort(function (a, b) {
+  return a - b;
+});
 
 //strings
 s.replace(regex, replacement);
