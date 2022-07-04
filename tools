@@ -7,6 +7,7 @@ arr.some(func);
 arr.sort(function (a, b) {
   return a - b;
 });
+arr.filter((x) => x == occ).length; //occurence
 
 //strings
 s.replace(regex, replacement);
